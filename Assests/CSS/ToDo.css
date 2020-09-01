@@ -1,0 +1,92 @@
+body {
+	margin: 100px auto;
+	height: 100vh;
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(8,25,45,1) 32%, rgba(230,97,0,1) 100%);
+}
+
+
+#container {
+	width : 360px;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.fa-plus-square{
+	float: right;
+}
+
+.done {
+	color : gray;
+	text-decoration : line-through;
+}
+
+h1 {
+	color : white;
+	background-color: rgba(2,0,36,1);
+	text-transform: uppercase;
+	font-size: 30px;
+	padding: 10px 20px;
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Long Cang', cursive;
+	
+}
+
+input {
+	padding: 13px 13px 13px 20px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	background-color: #f7f7f7;
+	color: blue;
+	border: none;
+	font-size: 15px;
+	font-family: 'Gayathri', sans-serif;
+}
+
+input:focus{
+	background-color: white;
+	border: 3px solid blue;
+	outline: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Gayathri', sans-serif;
+}
+
+li {
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: center;
+	cursor: pointer;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+.fa-plus-square{
+	cursor: pointer;
+}
+span{
+	background-color: red;
+	color: white;
+	width: 0;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	transition: 0.2s linear;
+	margin-right: 20px;
+	opacity: 0;
+	cursor: pointer;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
